@@ -56,7 +56,7 @@ export default {
   },
   inputAccept:{
     type: String,
-    default: 'image/jpg;image/jpeg;image/png;capture=camera'
+    default: 'image/jpg,image/jpeg,image/png,capture=camera'
   },
   isXhr: {
     type: Boolean,
